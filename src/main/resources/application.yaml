@@ -6,3 +6,11 @@ spring:
     url: jdbc:mysql://localhost:3306/hexagonal?characterEncoding=utf-8
     username: root
     password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
