@@ -1,0 +1,44 @@
+### 재고 입고 (P-100 상품 10개)
+POST http://localhost:8080/api/inventory
+Content-Type: application/json
+
+{
+  "productId": "P-100",
+  "quantity": 10
+}
+
+### 재고 조회
+GET http://localhost:8080/api/inventory/P-100
+
+### 주문 접수 — 재고 충분 (3개) → StockDeducted + 알림
+POST http://localhost:8080/api/orders
+Content-Type: application/json
+
+{
+  "productId": "P-100",
+  "quantity": 3
+}
+
+### 주문 조회
+GET http://localhost:8080/api/orders/1
+
+### 재고 재조회 → 7개로 감소 확인
+GET http://localhost:8080/api/inventory/P-100
+
+### 주문 접수 — 재고 부족 (9999개) → OutOfStock + 알림
+POST http://localhost:8080/api/orders
+Content-Type: application/json
+
+{
+  "productId": "P-100",
+  "quantity": 9999
+}
+
+### 유효성 실패 예시 (수량 0) → 400 Bad Request
+POST http://localhost:8080/api/orders
+Content-Type: application/json
+
+{
+  "productId": "P-100",
+  "quantity": 0
+}
