@@ -1,4 +1,4 @@
-package com.hyk.hexagonal.order.domain.port.in;
+package com.hyk.hexagonal.order.application.port.in;
 
 import com.hyk.hexagonal.order.domain.model.Order;
 

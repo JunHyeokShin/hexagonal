@@ -1,4 +1,4 @@
-package com.hyk.hexagonal.inventory.domain.port.in;
+package com.hyk.hexagonal.inventory.application.port.in;
 
 /** 재고 차감 인바운드 포트(유스케이스). */
 public interface DeductStockUseCase {

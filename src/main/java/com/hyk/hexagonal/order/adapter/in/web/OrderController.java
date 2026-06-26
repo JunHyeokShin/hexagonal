@@ -1,9 +1,9 @@
 package com.hyk.hexagonal.order.adapter.in.web;
 
 import com.hyk.hexagonal.order.domain.exception.OrderNotFoundException;
-import com.hyk.hexagonal.order.domain.port.in.GetOrderUseCase;
-import com.hyk.hexagonal.order.domain.port.in.PlaceOrderCommand;
-import com.hyk.hexagonal.order.domain.port.in.PlaceOrderUseCase;
+import com.hyk.hexagonal.order.application.port.in.GetOrderUseCase;
+import com.hyk.hexagonal.order.application.port.in.PlaceOrderCommand;
+import com.hyk.hexagonal.order.application.port.in.PlaceOrderUseCase;
 import jakarta.validation.Valid;
 import java.net.URI;
 import lombok.RequiredArgsConstructor;

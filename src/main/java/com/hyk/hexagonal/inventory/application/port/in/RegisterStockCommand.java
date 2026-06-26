@@ -1,4 +1,4 @@
-package com.hyk.hexagonal.inventory.domain.port.in;
+package com.hyk.hexagonal.inventory.application.port.in;
 
 /** 재고 입고 커맨드. */
 public record RegisterStockCommand(String productId, int quantity) {

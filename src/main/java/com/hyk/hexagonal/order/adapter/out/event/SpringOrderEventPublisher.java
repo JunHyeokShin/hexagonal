@@ -1,7 +1,7 @@
 package com.hyk.hexagonal.order.adapter.out.event;
 
 import com.hyk.hexagonal.order.domain.event.OrderPlacedEvent;
-import com.hyk.hexagonal.order.domain.port.out.OrderEventPublisher;
+import com.hyk.hexagonal.order.application.port.out.OrderEventPublisher;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;

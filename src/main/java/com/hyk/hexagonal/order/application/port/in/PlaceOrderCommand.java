@@ -1,4 +1,4 @@
-package com.hyk.hexagonal.order.domain.port.in;
+package com.hyk.hexagonal.order.application.port.in;
 
 /**
  * 주문 접수 유스케이스의 입력 모델.

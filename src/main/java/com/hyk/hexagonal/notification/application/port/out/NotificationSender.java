@@ -1,4 +1,4 @@
-package com.hyk.hexagonal.notification.domain.port.out;
+package com.hyk.hexagonal.notification.application.port.out;
 
 import com.hyk.hexagonal.notification.domain.model.Notification;
 

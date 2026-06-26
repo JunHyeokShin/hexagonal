@@ -1,8 +1,8 @@
 package com.hyk.hexagonal.order.adapter.out.persistence;
 
 import com.hyk.hexagonal.order.domain.model.Order;
-import com.hyk.hexagonal.order.domain.port.out.LoadOrderPort;
-import com.hyk.hexagonal.order.domain.port.out.SaveOrderPort;
+import com.hyk.hexagonal.order.application.port.out.LoadOrderPort;
+import com.hyk.hexagonal.order.application.port.out.SaveOrderPort;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

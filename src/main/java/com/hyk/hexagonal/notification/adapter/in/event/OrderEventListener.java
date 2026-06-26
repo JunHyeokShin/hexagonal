@@ -1,7 +1,7 @@
 package com.hyk.hexagonal.notification.adapter.in.event;
 
-import com.hyk.hexagonal.notification.domain.port.in.SendNotificationCommand;
-import com.hyk.hexagonal.notification.domain.port.in.SendNotificationUseCase;
+import com.hyk.hexagonal.notification.application.port.in.SendNotificationCommand;
+import com.hyk.hexagonal.notification.application.port.in.SendNotificationUseCase;
 import com.hyk.hexagonal.order.domain.event.OrderPlacedEvent;
 import lombok.RequiredArgsConstructor;
 import org.springframework.modulith.events.ApplicationModuleListener;

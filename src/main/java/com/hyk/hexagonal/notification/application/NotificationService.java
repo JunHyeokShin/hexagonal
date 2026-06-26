@@ -1,9 +1,9 @@
 package com.hyk.hexagonal.notification.application;
 
 import com.hyk.hexagonal.notification.domain.model.Notification;
-import com.hyk.hexagonal.notification.domain.port.in.SendNotificationCommand;
-import com.hyk.hexagonal.notification.domain.port.in.SendNotificationUseCase;
-import com.hyk.hexagonal.notification.domain.port.out.NotificationSender;
+import com.hyk.hexagonal.notification.application.port.in.SendNotificationCommand;
+import com.hyk.hexagonal.notification.application.port.in.SendNotificationUseCase;
+import com.hyk.hexagonal.notification.application.port.out.NotificationSender;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

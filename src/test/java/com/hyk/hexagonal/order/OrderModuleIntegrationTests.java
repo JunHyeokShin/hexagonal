@@ -3,8 +3,8 @@ package com.hyk.hexagonal.order;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.hyk.hexagonal.order.domain.event.OrderPlacedEvent;
-import com.hyk.hexagonal.order.domain.port.in.PlaceOrderCommand;
-import com.hyk.hexagonal.order.domain.port.in.PlaceOrderUseCase;
+import com.hyk.hexagonal.order.application.port.in.PlaceOrderCommand;
+import com.hyk.hexagonal.order.application.port.in.PlaceOrderUseCase;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.modulith.test.ApplicationModuleTest;

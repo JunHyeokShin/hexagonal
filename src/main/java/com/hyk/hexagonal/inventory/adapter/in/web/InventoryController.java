@@ -1,9 +1,9 @@
 package com.hyk.hexagonal.inventory.adapter.in.web;
 
 import com.hyk.hexagonal.inventory.domain.exception.StockNotFoundException;
-import com.hyk.hexagonal.inventory.domain.port.in.GetStockUseCase;
-import com.hyk.hexagonal.inventory.domain.port.in.RegisterStockCommand;
-import com.hyk.hexagonal.inventory.domain.port.in.RegisterStockUseCase;
+import com.hyk.hexagonal.inventory.application.port.in.GetStockUseCase;
+import com.hyk.hexagonal.inventory.application.port.in.RegisterStockCommand;
+import com.hyk.hexagonal.inventory.application.port.in.RegisterStockUseCase;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

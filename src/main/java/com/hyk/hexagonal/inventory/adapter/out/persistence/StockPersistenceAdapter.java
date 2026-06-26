@@ -1,8 +1,8 @@
 package com.hyk.hexagonal.inventory.adapter.out.persistence;
 
 import com.hyk.hexagonal.inventory.domain.model.Stock;
-import com.hyk.hexagonal.inventory.domain.port.out.LoadStockPort;
-import com.hyk.hexagonal.inventory.domain.port.out.SaveStockPort;
+import com.hyk.hexagonal.inventory.application.port.out.LoadStockPort;
+import com.hyk.hexagonal.inventory.application.port.out.SaveStockPort;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

@@ -1,7 +1,7 @@
 package com.hyk.hexagonal.notification.adapter.out.log;
 
 import com.hyk.hexagonal.notification.domain.model.Notification;
-import com.hyk.hexagonal.notification.domain.port.out.NotificationSender;
+import com.hyk.hexagonal.notification.application.port.out.NotificationSender;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

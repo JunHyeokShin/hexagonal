@@ -1,7 +1,7 @@
 package com.hyk.hexagonal.inventory.adapter.in.event;
 
-import com.hyk.hexagonal.inventory.domain.port.in.DeductStockCommand;
-import com.hyk.hexagonal.inventory.domain.port.in.DeductStockUseCase;
+import com.hyk.hexagonal.inventory.application.port.in.DeductStockCommand;
+import com.hyk.hexagonal.inventory.application.port.in.DeductStockUseCase;
 import com.hyk.hexagonal.order.domain.event.OrderPlacedEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

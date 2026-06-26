@@ -1,4 +1,4 @@
-package com.hyk.hexagonal.inventory.domain.port.in;
+package com.hyk.hexagonal.inventory.application.port.in;
 
 import com.hyk.hexagonal.inventory.domain.model.Stock;
 

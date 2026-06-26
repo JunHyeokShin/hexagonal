@@ -2,7 +2,7 @@ package com.hyk.hexagonal.inventory.adapter.out.event;
 
 import com.hyk.hexagonal.inventory.domain.event.OutOfStockEvent;
 import com.hyk.hexagonal.inventory.domain.event.StockDeductedEvent;
-import com.hyk.hexagonal.inventory.domain.port.out.InventoryEventPublisher;
+import com.hyk.hexagonal.inventory.application.port.out.InventoryEventPublisher;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
