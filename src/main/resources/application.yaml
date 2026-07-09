@@ -6,3 +6,19 @@ spring:
     url: jdbc:mysql://localhost:3306/hexagonal?characterEncoding=utf-8
     username: root
     password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+  modulith:
+    events:
+      completion-mode: update
+      republish-outstanding-events-on-restart: true
+
+logging:
+  level:
+    org.springframework.modulith: INFO
+    com.hyk.hexagonal: DEBUG
